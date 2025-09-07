@@ -1,0 +1,68 @@
+.body {
+    min-height: 200vh;
+    background: #afb5ae;
+}
+
+.body--fixed {
+    overflow-y: hidden;
+}
+
+.btn-open {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1D6FB6;
+    width: 100%;
+    max-width: 288px;
+    height: 56px;
+    background: #D0DCE7;
+    border-radius: 100px;
+    transition: all .5s;
+}
+.btn-open:hover {
+    color: #F8FCFF;
+    background: #83ADD3;
+}
+
+.modal {
+    position: fixed;
+    inset: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000000c1;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+}
+
+.modal--open {
+    opacity: 1;
+    visibility: visible;    
+}
+
+.modal__window {
+    position: relative;
+    width: 50vw;
+    min-height: 40vh;
+    padding: 50px 20px 20px 20px;
+    background: #ffffff;
+    border-radius: 12px;
+}
+
+.modal__btn-close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+    font-weight: 700;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
