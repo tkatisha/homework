@@ -142,7 +142,7 @@ hr {
     z-index: 1;
 }
 
-.header__content-button img {
+.header__content-button svg {
     width: 3vw;
     height: 3vw;
 }
@@ -276,4 +276,5 @@ hr {
     }
 }
 @media (max-width: 500px) {
+
 }
