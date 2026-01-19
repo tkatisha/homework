@@ -1,0 +1,32 @@
+.container {
+    max-width: 1320px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    border-bottom: 1px solid #b4b4b4;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background: black;
+}
+
+.nav {
+    flex: 0 1 250px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+
+}
